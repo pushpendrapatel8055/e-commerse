@@ -1,0 +1,613 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: rgb(236, 202, 208);; */
+    
+    font-family: "apercu",sans-serif;
+}
+
+
+
+
+/* !---navbar section------ */
+
+
+
+
+nav {
+    /* background:#BA68C8; */
+    height: 95px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+   
+    /* background-color: rgb(236, 202, 208);; */
+}
+
+#checkbtn {
+    font-size: 24px;
+    color: black;
+    float: right;
+    /* line-height: 80px; */
+    margin-right: 25px;
+    margin-top: 22px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#check {
+    display: none;
+    font-size: 30px;
+    color: white;
+    float: right;
+    margin-right: 25px;
+    /* line-height: 80px; */
+    margin-top: 22px;
+
+    cursor: pointer;
+
+}
+
+nav label {
+    float: right;
+    margin: 20px;
+}
+
+
+
+nav a img {
+    width: 103px;
+    /* margin: 20px 81px; */
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+/* .search{
+    margin-top: 0;
+}  */
+nav ul {
+    float: right;
+    /* margin: 20px 92px; */
+    margin-right: 228px;
+    margin-top: -5px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul img {
+    width: 26px;
+    cursor: pointer;
+    
+    margin-left: 0;
+}
+
+nav ul li a {
+    padding: 3pxpx;
+    margin: 20px 20px;
+    color: rgb(69, 65, 65);
+}
+nav ul li a:hover{
+   color: #f4744c; 
+}
+
+
+/* !-------main section---------! */
+
+
+
+.main {
+    /* display: flex; */
+    display: flex;
+width: 100%;
+background-color: rgb(236, 202, 208);
+}
+
+.left {
+    margin-top: 60px;
+    flex-basis: 50%;
+    padding: 79px;
+}
+
+.left h2 {
+    font-size: 39px;
+}
+
+.left p {
+    font-size: 12px;
+}
+.left button{
+    padding: 6px;
+border-radius: 8px;
+background: #f4744c;
+cursor: pointer;
+border: 2px solid #f9792c;
+}
+.left button:hover{
+    background:rgb(233, 138, 103) ;
+}
+.right {
+    flex-basis: 50%;
+    margin-right: 30px;
+}
+
+.right img {
+    width: 71%;
+    margin-top: 65px;
+}
+
+
+/* !-----images section--------! */
+
+
+.images{
+text-align: center;
+background: white;
+}
+.images img{
+    width: 200px;
+    margin: 41px 13px;
+}
+.images img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: .8s ease;
+}
+
+
+
+/* !-------f-products section-------! */
+
+.f-products{
+    background: white;
+
+}
+.f-products h2{
+ 
+    text-align: center;
+margin-bottom: 20px;
+}
+/* .products h2 span {
+    /* position: relative; 
+    color:black;
+   
+  }
+ .products h1 span:after {
+    /* position: absolute; 
+    content: '';
+    width: 15%;
+    height: 1px;
+    border-bottom: 2px solid #863C2F;
+    bottom: -2px;
+    left: 50%;
+    margin-left: -7.5%;
+  } */
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+   
+
+}
+.row{
+margin: 20px; 
+
+ 
+}
+
+.row img{
+width: 200px;
+height: 250px;
+display: inline-block;
+}
+.row img:hover{
+    -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+
+.l-products{
+    background: white;
+}
+.l-products h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* !--------smart band section-------! */
+.smart-b{
+    display: flex;
+    width: 100%;
+    background-color: rgb(236, 202, 208);
+    height: 60vh;
+
+}
+.left-b{
+flex-basis: 50%;
+align-items: center;
+}
+.left-b img{
+    width: 43%;
+/* height: 80%; */
+margin-left: 160px;
+margin-top: 42px;
+align-items: center;
+  }
+  .right-b{
+
+  }
+  .right-b h2{
+    font-size: 35px;
+  }
+ 
+.right-b h6{
+margin-top: 65px;
+font-size: 11px;
+color: rgb(77, 75, 71);
+}
+
+.right-b p{
+color: rgb(77, 75, 71);
+font-size: 12px;
+}
+.right-b button{
+    padding: 6px;
+    border-radius: 8px;
+    background: #f4744c;
+    cursor: pointer;
+    border: 2px solid #f9792c;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+/* !-----------matrimonials section------------! */
+
+.matrimonials{
+display: flex;
+text-align: center;
+justify-content: center;
+margin-top: 25px;
+background-color: white;
+}
+.row_m{
+    /* margin: 56px; */
+    border: 2px solid rgb(230, 237, 237);
+    padding: 10px;
+    text-align: center;
+    margin: 84px 22px;
+ width: 260px;
+ border-radius: 10px;
+}
+.row_m:hover{
+    -webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1.2);
+transition: 1s ease;
+}
+.row_m p{
+    font-size: 11px;
+    color: rgb(77, 75, 71);
+    margin: 11px;
+}
+.row_m h3{
+font-size: 15px;
+margin-bottom: 17px;
+}
+
+.row_m img{
+    border-radius: 50%;
+    width: 16%;
+    margin: 10px;
+}
+
+
+/* !-------brands section------------! */
+
+
+.brands{
+    background-color: white;
+    text-align: center;
+}
+.brands img{
+    width: 100px;
+    margin: 20px;
+}
+.brands img {
+    width: 100px;
+    margin: 20px;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  }
+  
+  /* Disable grayscale on hover */
+  .brands img:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+  }
+
+  /* !-----footer-----! */
+
+
+  .end{
+background-color:black;
+display:flex;
+text-align: center;
+justify-content: center;
+  }
+  .end p{
+    color:#645d5d; 
+    font-size: 8px;
+    display: block;
+  }
+  .col_e{
+    text-align: center;
+
+     margin: 38px; 
+  }
+  .col_e img{
+width: 100px;
+  }
+  .col_e h2{
+    font-size: 12px;
+color: white;
+margin: 10px;
+  }
+  .col_e p{
+    font-size: 9px;
+    color: #645d5d;
+    margin: 16px;
+    line-height: 15px;
+  }
+  .end .col_e a{
+    font-size: 12px;
+    color: #645d5d;
+    display: block;
+    margin: 6px;
+  }
+  .end .col_e a:hover{
+    color: #f4744c;
+  }
+
+  /* !-------copy-----! */
+
+  .copy{
+    background-color: black;
+    height: 25vh;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .copy p{
+    font-size: 12px;
+    color:#645d5d; 
+    text-align: center;
+    margin: 5px;
+  }
+  .copy i{
+    margin: 50px 10px;
+    cursor: pointer;
+
+  }
+  .copy a :hover{
+    color: rgb(235, 95, 95);
+  }
+
+
+  /* !---------PRODUCT PAGE----------------! */
+
+
+  .head{
+    display: flex;
+    margin: 50px;
+  }
+  .head select{
+    float: right;
+   
+    margin-left: 73%;
+  }
+
+  .btn{
+    margin: 50px;
+  }
+  .btn button{
+    margin: 10px;
+width: 29px;
+height: 28px;}
+.btn button:hover{
+    background-color: #f9792c;
+}
+
+
+/* !-----------responsive----------------! */
+
+@media(max-width:920px){
+  #checkbtn{
+    display: block;
+  }
+
+#check:checked ~ ul{
+  display: block;
+  
+
+}
+ul{
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #313543 ;
+  top: 80px;
+  text-align: center;
+  transition: all .5s;
+
+}
+
+
+nav ul li{
+  display: block;
+  margin: 40px 0;
+line-height: 20px;
+
+}
+nav ul li a{
+  font-size: 15px;
+  color: white;
+
+}
+nav a img{
+  margin-top: 10px;
+}
+
+/* !------main----------- */
+
+.left {
+  padding: 46px;
+  margin-top: 0px;
+}
+.left button{
+  padding: 2px;
+}
+.left h2{
+  font-size: 16px;
+}
+.left p{
+  font-size: 10px;
+}
+.right img{
+  width: 90%;
+  height: 28vh;
+
+}
+
+
+/* !----smart--------! */
+
+
+
+
+.smart-b{
+  display: flex;
+  width: 100%;
+  background-color: rgb(236, 202, 208);
+  height: 32vh;
+}
+.left-b img{
+  width: 43%;
+height: 49%;
+margin-left: 53px;
+margin-top: 42px;
+}
+.right-b h6 {
+
+  font-size: 11px;
+
+}
+.right-b p {
+
+  font-size: 7px;
+}
+.right-b h2 {
+  font-size: 20px;
+}
+
+
+
+
+/* !----------matrimonial-----------------! */
+
+
+.row_m{
+  margin: 30px 10px;
+}
+.row_m p{
+  font-size: 5px;
+  margin: 2px;
+}
+.row img {
+  width: 264px;
+  height: 276px;
+ 
+}
+/* !-----------footer---------! */
+
+
+
+.col_e{
+  margin: 13px;
+}
+.col_e p{
+  font-size: 7px;
+}
+.end .col_e a{
+  font-size: 7px;
+}
+
+.head select{
+  margin-left: 30%;
+}
+
+}
+
+@media(max-width:435px){
+
+
+  .left{
+    padding: 19px;
+    margin-top: 25px;
+  }
+  .left-p{
+    font-size: 8px;
+  }
+  .right{
+    margin-right: 0;
+  }
+  .right img{
+    margin-top: 22px;
+    width: 100%;
+  }
+  .row h5{
+    font-size: 12px;
+  }
+  .row p{
+    font-size: 12px;
+  }
+  .smart-b{
+    height: 33vh;
+}
+.left-b img {
+  width: 43%;
+  height: 49%;
+  margin-left: 53px;
+  margin-top: 60px;}
+.right-b {
+  flex-basis: 49%;
+}
+  
+.col_e{
+  margin: 7px;
+}
+.col_e h2{
+  font-size: 8px;
+}
+
+.head select{
+  margin-left: 30%;
+}
+.row img {
+  width: 264px;
+  height: 276px;
+ 
+}}
